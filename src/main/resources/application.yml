@@ -1,0 +1,13 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+logging:
+  level:
+    org.springframework.web: DEBUG
